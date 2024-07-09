@@ -4,7 +4,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         Scanner s = new Scanner(System.in);
 
-        // execicio1 este
+        // execicio1
         int n = 0, pow = 0;
         n = s.nextInt();
 

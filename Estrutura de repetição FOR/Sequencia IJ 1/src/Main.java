@@ -1,5 +1,12 @@
 public class Main {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        int i=1;
+        
+        for (int j = 60; j ==0 ; j = j-5) {
+            
+            System.out.println("I="+i+" "+"J="+j);
+            i+=3;
+        }
+
     }
 }

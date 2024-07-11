@@ -39,5 +39,6 @@ public class App {
 
 
         }
+        s.close();
     }
 }

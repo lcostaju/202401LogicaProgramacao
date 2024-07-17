@@ -10,10 +10,8 @@ public class Main {
         for (int i = 1; i <= t; i++) {
             
             String sheldon = s.next();
-            String raj = s.next(); 
-			
-			
-			 
+            String raj = s.next();
+
             if((sheldon.equals("tesoura")&&(raj.equals("papel")||raj.equals("lagarto")))||
             (sheldon.equals("papel")&&(raj.equals("pedra")||raj.equals("Spok")))||
             (sheldon.equals("pedra")&&(raj.equals("lagarto")||raj.equals("tesoura")))||
@@ -26,16 +24,8 @@ public class Main {
             }else{
                 System.out.println("Caso #"+i+": Raj trapaceou!");
             }
-				
 
-				//System.out.println(sheldon+" "+raj);
-                
-
-                
         }
-            
-
-            
 
         s.close();
     }

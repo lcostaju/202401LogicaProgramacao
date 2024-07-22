@@ -9,7 +9,7 @@ public class App {
         m = s.nextInt();
         n = s.nextInt();
 
-        while (m != 0 || n != 0) {
+        while (m > 0 && n > 0) {
             if (m > n) {
                 ini = n;
                 fim = m;
@@ -18,12 +18,15 @@ public class App {
                 fim = n;
             }
             for (int i = ini; i <= fim; i++) {
-                System.out.println(i);
+                System.out.print(i+" ");
                 sum += i;
             }
-            System.out.println("Sum="+sum);
+            System.out.printf("Sum=%d\n",sum);
+            sum = 0;
             m = s.nextInt();
             n = s.nextInt();
         }
+
+        s.close();
     }
 }

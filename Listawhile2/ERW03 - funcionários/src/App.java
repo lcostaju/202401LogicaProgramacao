@@ -40,9 +40,9 @@ public class App {
                 contSalM++;
             }
         }
-        System.out.println(mediaSal);
-        System.out.println(menorIdade+' '+maiorIdade);
-        System.out.println(contSalM);
+        System.out.printf("Media salarios = R$ %.2f\n",mediaSal);
+        System.out.printf("Menor e maior idade = %d e %d\n",menorIdade,maiorIdade);
+        System.out.println("Salarios de mulheres acima de R$ 3000.00 = "+contSalM);
         //System.out.println();
     }
 }
